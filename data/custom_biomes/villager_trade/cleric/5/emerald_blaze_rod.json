@@ -1,0 +1,13 @@
+{
+  "gives": {
+    "id": "minecraft:blaze_rod",
+    "count": 1
+  },
+  "max_uses": 2,
+  "reputation_discount": 0.00,
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 64
+  },
+  "xp": 15
+}
