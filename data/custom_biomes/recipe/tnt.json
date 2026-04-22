@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "X": "minecraft:gunpowder",
+    "#": "minecraft:barrel",
+    "@": "minecraft:paper"
+  },
+  "pattern": [
+    "XXX",
+    "@#@",
+    "XXX"
+  ],
+  "result": {
+    "id": "minecraft:tnt"
+  }
+}
