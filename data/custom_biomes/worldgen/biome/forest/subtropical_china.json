@@ -1,14 +1,6 @@
 {
   "attributes": {
-    "minecraft:audio/background_music": {
-      "default": {
-        "max_delay": 24000,
-        "min_delay": 12000,
-        "sound": "minecraft:music.overworld.jagged_peaks"
-      }
-    },
-    "minecraft:gameplay/increased_fire_burnout": true,
-    "minecraft:visual/sky_color": "#859dff"
+    "minecraft:visual/sky_color": 9223892
   },
   "carvers": [
     "minecraft:cave",
@@ -17,9 +9,9 @@
   ],
   "downfall": 0.9,
   "effects": {
-    "water_color": "#3f76e4",
-    "grass_color": 9931086,
-    "foliage_color": 8879680
+    "water_color": 4159204,
+    "grass_color": 6662955,
+    "foliage_color": 6590754
   },
   "features": [
     [],
@@ -65,19 +57,26 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel",
-      "minecraft:ore_emerald"
+      "minecraft:disk_gravel"
     ],
-    [
-      "minecraft:ore_infested"
-    ],
+    [],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "minecraft:spring_lava_frozen"
+      "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "minecraft:bamboo_light",
+      "minecraft:trees_jungle",
+      "minecraft:flower_warm",
+      "minecraft:patch_grass_jungle",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_firefly_bush_near_water",
+      "minecraft:vines",
+      "minecraft:patch_melon"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -97,10 +96,52 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:goat",
-        "maxCount": 3,
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:parrot",
+        "maxCount": 2,
         "minCount": 1,
-        "weight": 5
+        "weight": 40
+      },
+      {
+        "type": "minecraft:panda",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
       }
     ],
     "misc": [],
@@ -116,12 +157,6 @@
         "maxCount": 4,
         "minCount": 4,
         "weight": 95
-      },
-      {
-        "type": "minecraft:zombie_villager",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
       },
       {
         "type": "minecraft:skeleton",
@@ -165,5 +200,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": -0.7
+  "temperature": 0.8
 }

@@ -1,17 +1,17 @@
 {
   "attributes": {
-    "minecraft:visual/sky_color": 7842047
+    "minecraft:visual/sky_color": 7907327
   },
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-  "downfall": 0.9,
+  "downfall": 0.4,
   "effects": {
-    "water_color": 4159204,
-    "grass_color": 6662955,
-    "foliage_color": 6590754
+    "water_color": 4566514,
+    "grass_color": 11983713,
+    "foliage_color": 11983713
   },
   "features": [
     [],
@@ -66,17 +66,13 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:bamboo_light",
-      "minecraft:trees_jungle",
-      "minecraft:flower_warm",
-      "minecraft:patch_grass_jungle",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water",
-      "minecraft:vines",
-      "minecraft:patch_melon"
+      "minecraft:patch_firefly_bush_near_water"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -96,52 +92,10 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:horse",
-        "maxCount": 6,
+        "type": "minecraft:turtle",
+        "maxCount": 5,
         "minCount": 2,
         "weight": 5
-      },
-      {
-        "type": "minecraft:donkey",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 1
-      },
-      {
-        "type": "minecraft:rabbit",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
       }
     ],
     "misc": [],
@@ -193,12 +147,6 @@
         "maxCount": 1,
         "minCount": 1,
         "weight": 5
-      },
-      {
-        "type": "minecraft:ocelot",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 2
       }
     ],
     "underground_water_creature": [
@@ -212,5 +160,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.95
+  "temperature": 0.8
 }
