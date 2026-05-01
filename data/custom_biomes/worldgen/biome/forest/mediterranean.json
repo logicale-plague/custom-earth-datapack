@@ -67,10 +67,11 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
+      "minecraft:trees_savanna",
       "minecraft:patch_bush",
-      "minecraft:trees_plains",
+      "minecraft:trees_forest",
       "minecraft:flower_plains",
-      "minecraft:patch_grass_plain",
+      "minecraft:patch_grass_savanna",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
