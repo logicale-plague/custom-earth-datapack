@@ -1,17 +1,25 @@
 {
   "attributes": {
-    "minecraft:visual/sky_color": 4159204
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.overworld.flower_forest"
+      }
+    },
+    "minecraft:visual/sky_color": 2378167,
+    "minecraft:visual/fog_color": 10076415
   },
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-  "downfall": 0.4,
+  "downfall": 0.8,
   "effects": {
-    "water_color": 4566514,
-    "grass_color": 12564309,
-    "foliage_color": 11445290
+    "water_color": 4020182,
+    "grass_color": 6662955,
+    "foliage_color": 6590754
   },
   "features": [
     [],
@@ -66,12 +74,10 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:trees_savanna",
-      "minecraft:patch_bush",
+      "minecraft:flower_forest_flowers",
       "minecraft:trees_flower_forest",
-      "minecraft:flower_plains",
-      "minecraft:patch_grass_savanna",
+      "minecraft:flower_flower_forest",
+      "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
@@ -120,16 +126,22 @@
         "weight": 8
       },
       {
-        "type": "minecraft:wolf",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 5
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 4
       },
       {
-        "type": "minecraft:fox",
-        "maxCount": 4,
+        "type": "minecraft:horse",
+        "weight": 5,
         "minCount": 2,
-        "weight": 8
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:donkey",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3
       }
     ],
     "misc": [],
@@ -144,10 +156,10 @@
         "type": "minecraft:zombie",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 90
+        "weight": 95
       },
       {
-        "type": "minecraft:zombie_horse",
+        "type": "minecraft:zombie_villager",
         "maxCount": 1,
         "minCount": 1,
         "weight": 5
@@ -194,5 +206,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.8
+  "temperature": 0.7
 }
